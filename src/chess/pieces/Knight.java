@@ -10,8 +10,6 @@ public class Knight extends ChessPiece {
 	public Knight(Board board, Color color) {
 		super(board, color);
 	}
-	
-
 
 	private boolean canMove(Position position) {
 		ChessPiece p = (ChessPiece)getBoard().piece(position);
